@@ -4,7 +4,7 @@
 # Supports linux/amd64 and linux/arm64
 # ==============================================================================
 
-FROM --platform=$BUILDPLATFORM rust:1.80-alpine AS builder
+FROM --platform=$BUILDPLATFORM rust:1.98-alpine AS builder
 
 ARG TARGETPLATFORM
 ARG TARGETARCH
